@@ -1,0 +1,50 @@
+I, [2018-03-08T12:54:08.194575 #13529]  INFO -- : Refreshing Gem list
+E, [2018-03-08T12:54:09.337819 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:54:09.337895 #13529] ERROR -- : retrying in 0.5 seconds (4 tries left)
+E, [2018-03-08T12:54:09.838187 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:54:09.838329 #13529] ERROR -- : retrying in 0.5 seconds (3 tries left)
+E, [2018-03-08T12:54:10.338649 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:54:10.338788 #13529] ERROR -- : retrying in 0.5 seconds (2 tries left)
+E, [2018-03-08T12:54:10.839685 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:54:10.839821 #13529] ERROR -- : retrying in 0.5 seconds (1 tries left)
+E, [2018-03-08T12:54:11.340144 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:54:11.340275 #13529] ERROR -- : retrying in 0.5 seconds (0 tries left)
+E, [2018-03-08T12:54:11.840615 #13529] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+/home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `initialize': Address already in use - connect(2) for /home/rails/Desktop/appname/shared/sockets/unicorn.sock (Errno::EADDRINUSE)
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `each'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:130:in `start'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/unicorn:23:in `load'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/unicorn:23:in `<main>'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/ruby_executable_hooks:15:in `eval'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/ruby_executable_hooks:15:in `<main>'
+I, [2018-03-08T12:55:30.174408 #13759]  INFO -- : Refreshing Gem list
+E, [2018-03-08T12:55:31.316669 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:55:31.316748 #13759] ERROR -- : retrying in 0.5 seconds (4 tries left)
+E, [2018-03-08T12:55:31.817070 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:55:31.817216 #13759] ERROR -- : retrying in 0.5 seconds (3 tries left)
+E, [2018-03-08T12:55:32.317559 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:55:32.317704 #13759] ERROR -- : retrying in 0.5 seconds (2 tries left)
+E, [2018-03-08T12:55:32.818083 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:55:32.818227 #13759] ERROR -- : retrying in 0.5 seconds (1 tries left)
+E, [2018-03-08T12:55:33.318572 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+E, [2018-03-08T12:55:33.318715 #13759] ERROR -- : retrying in 0.5 seconds (0 tries left)
+E, [2018-03-08T12:55:33.819060 #13759] ERROR -- : adding listener failed addr=/home/rails/Desktop/appname/shared/sockets/unicorn.sock (in use)
+/home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `initialize': Address already in use - connect(2) for /home/rails/Desktop/appname/shared/sockets/unicorn.sock (Errno::EADDRINUSE)
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `new'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/socket_helper.rb:122:in `bind_listen'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:231:in `listen'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `block in bind_new_listeners!'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `each'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:808:in `bind_new_listeners!'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:130:in `start'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/unicorn:23:in `load'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/unicorn:23:in `<main>'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/ruby_executable_hooks:15:in `eval'
+	from /home/rails/.rvm/gems/ruby-2.3.1@server_app/bin/ruby_executable_hooks:15:in `<main>'

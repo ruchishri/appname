@@ -1,0 +1,22 @@
+# PostgreSQL. Versions 9.1 and up are supported.
+#
+# Install the pg driver:
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: appname
+  pool:     5
+  username: postgres
+  password: postgres
+  
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: appname
+  pool:     5
+  username: postgres
+  password: postgres
+
+
